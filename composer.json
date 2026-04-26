@@ -1,12 +1,18 @@
 {
-    "name": "adb-php/adb-php",
-    "description": "Pure PHP ADB client — full port of @devicefarmer/adbkit v3 for PHP 8.3+",
+    "name": "pkgmcp/adb-php",
+    "description": "Pure PHP 8.3 ADB client — full port of @devicefarmer/adbkit v3.3.8",
     "type": "library",
     "version": "1.0.0",
     "license": "Apache-2.0",
     "keywords": ["android", "adb", "adbkit", "debug", "shell", "logcat", "apk", "install"],
+    "homepage": "https://github.com/pkgmcp/adb-php",
     "authors": [
-        { "name": "adb-php contributors", "role": "Developer" }
+        {
+            "name": "shamimstack",
+            "email": "shamimstack@gmail.com",
+            "homepage": "https://github.com/pkgmcp",
+            "role": "Developer"
+        }
     ],
     "require": {
         "php": ">=8.3"
@@ -25,9 +31,11 @@
         }
     },
     "minimum-stability": "stable",
+    "prefer-stable": true,
     "config": {
         "platform": {
             "php": "8.3.0"
-        }
+        },
+        "sort-packages": true
     }
 }
